@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML COMPILER </title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Web Architect Adventure Logo" class="logo">
+        <h1>WELCOME TO ONLINE HTML COMPILER </h1>
+    </header>
+    <main>
+        <section id="instructions">
+            <h2>Level 1: Create a Simple Webpage</h2>
+            <p>Follow the instructions to build your first webpage.</p>
+            <ol>
+                <li>Create a title for your webpage.</li>
+                <li>Add a main heading.</li>
+                <li>Add a paragraph with some text.</li>
+                <li>Insert an image.</li>
+            </ol>
+        </section>
+        <section id="workspace">
+            <h2>Your Workspace</h2>
+            <textarea id="htmlCode" placeholder="Write your HTML code here..."></textarea>
+            <button onclick="runCode()">Run Code</button>
+        </section>
+        <section id="output">
+            <h2>Output</h2>
+            <iframe id="preview"></iframe>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
